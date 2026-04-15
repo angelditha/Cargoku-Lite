@@ -20,9 +20,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-    },
-    "ignoreDeprections": "6.0"
+      "@/*": ["./*"]
+    }
   },
   "include": [
     "next-env.d.ts",
@@ -31,7 +30,8 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
-    ".next/dev/types/**/*.ts"
-, "app/page.tsx"  ],
+    ".next/dev/types/**/*.ts",
+    "app/page.tsx"
+  ],
   "exclude": ["node_modules"]
 }
