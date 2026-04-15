@@ -22,7 +22,7 @@
     "paths": {
       "@/*": ["./*"],
     },
-    
+    "ignoreDeprections": "6.0"
   },
   "include": [
     "next-env.d.ts",
@@ -32,6 +32,6 @@
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
     ".next/dev/types/**/*.ts"
-, "app/page.js"  ],
+, "app/page.tsx"  ],
   "exclude": ["node_modules"]
 }
